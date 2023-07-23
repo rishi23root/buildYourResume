@@ -18,6 +18,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <meta property="description" content={metadata.description as string} />
+      <meta property="og:image" content="Link preview image URL"></meta>
+      <meta property="og:title" content="Build.your.resume"></meta>
+      <meta
+        property="og:description"
+        content={metadata.description as string}
+      />
+      <meta property="og:url" content={metadata.description as string}></meta>
       <body
         className={clsx(
           inter.className,
