@@ -15,7 +15,7 @@ function Nav({editorLink}: {editorLink: string}) {
         height={65}
         priority
       />
-      <div className="flex items-center justify-center gap-3 lg:gap-12 lg:text-2xl font-base">
+      <div className="hidden gap-3 fcc lg:gap-12 lg:text-2xl font-base md:flex">
         <Link href={"#about"} className="text-violet-50">
           About
         </Link>

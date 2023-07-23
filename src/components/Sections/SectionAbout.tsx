@@ -4,7 +4,7 @@ export function SectionAbout({ editorLink }: { editorLink: string }) {
   return (
     <section
       id="about"
-      className=" h-[65vh] fc fce w-full fcc fc gap-8 "
+      className=" min-h-[65vh] fc fce w-full fcc fc gap-8 "
     >
       {/* heading */}
       <div className="w-full gap-4 text-center fcc fc">

@@ -38,7 +38,7 @@ export default function RootLayout({
           "relative"
         )}
       >
-        <NoSSR>
+        {/* <NoSSR>
           <BubbleUnderlay
             className={clsx(
               "fixed",
@@ -49,7 +49,7 @@ export default function RootLayout({
               "select-none"
             )}
           />
-        </NoSSR>
+        </NoSSR> */}
         {children}
       </body>
     </html>
