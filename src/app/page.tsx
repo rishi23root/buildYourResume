@@ -27,7 +27,7 @@ export default function Home() {
       <Line />
       <Footer />
             
-      <div className="fixed bottom-0 right-0 flex items-center p-2 m-2 text-3xl text-pink-600 bg-gray-300 border border-gray-400 rounded">
+      {/* <div className="fixed bottom-0 right-0 flex items-center p-2 m-2 text-3xl text-pink-600 bg-gray-300 border border-gray-400 rounded">
         <svg
           className="inline w-auto h-6"
           viewBox="0 0 80 64"
@@ -62,7 +62,7 @@ export default function Home() {
         <span className="hidden ml-1 font-extrabold md:inline lg:hidden">md:big Phones</span>
         <span className="hidden ml-1 font-extrabold lg:inline xl:hidden">lg:tablet</span>
         <span className="hidden ml-1 font-extrabold xl:inline">xl:desktop</span>
-      </div>
+      </div>` */}
     </main>
   );
 }
