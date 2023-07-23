@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 function SectionFeatures({ editorLink }: { editorLink: string }) {
   return (
-    <section id="features" className="snap-normal snap-center">
+    <section id="features" className="">
       <div className="w-full h-full gap-16 fc fss ">
         {/* text */}
         <div className="w-full gap-2 fc fcc">

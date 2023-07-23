@@ -3,7 +3,7 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <section className="snap-normal snap-center flex items-center justify-between h-[55vh] my-10">
+    <section className=" flex items-center justify-between min-h-[55vh] my-10 ">
       {/* text  */}
       <div className="flex flex-col justify-between h-full ">
         <div className="w-[45vw] flex-col justify-start items-start gap-[2rem] flex ">

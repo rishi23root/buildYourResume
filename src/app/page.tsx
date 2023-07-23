@@ -12,7 +12,7 @@ export default function Home() {
   
   return (
     // make whole page with 10/12 width and center it on above medium screens
-    <div className="app px-[11%] py-[2.5rem] h-full flex flex-col gap-20 snap-y snap-mandatory ">
+    <div className="app px-[11%] py-[2.5rem]  flex flex-col gap-20  ">
       {/* paint each section */}
       <Nav editorLink={editorLink} />
       <HeroSection />

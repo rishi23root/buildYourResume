@@ -3,7 +3,7 @@ import React from "react";
 
 export function SectionPrice({ editorLink }: { editorLink: string }) {
   return (
-    <section id="pricing" className="snap-normal snap-center h-[65vh] fc fce w-full gap-2">
+    <section id="pricing" className=" h-[65vh] fc fce w-full gap-2">
       {/* heading */}
       <div className="w-full gap-4 text-center fcc fc">
         <div className="text-5xl font-bold text-neutral-200 ">

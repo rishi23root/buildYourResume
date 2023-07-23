@@ -3,7 +3,7 @@ import React from "react";
 
 function Section2({ editorLink }: { editorLink: string }) {
   return (
-    <section className="snap-normal snap-center h-[65vh] fc fce ">
+    <section className=" min-h-[65vh] fc fce ">
       <div className="">
         <div className="text-center text-neutral-200 text-[4.5rem] font-semibold">
           #ForTheStudentsByTheStudents
