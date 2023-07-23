@@ -21,6 +21,8 @@ export default function RootLayout({
       <body
         className={clsx(
           inter.className,
+          // "bg-white",
+          // "text-black",
           "bg-[#12141D]",
           "text-[#E0E0E0]",
           "min-h-screen",

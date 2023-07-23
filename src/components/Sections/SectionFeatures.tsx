@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function SectionFeatures({ editorLink }: { editorLink: string }) {
   return (
     <section id="features" className="">
-      <div className="w-full h-full gap-16 fc fss ">
+      <div className="w-full h-full gap-16 text-center fc fss">
         {/* text */}
         <div className="w-full gap-2 fc fcc">
           <div className="text-neutral-200 text-[3rem] font-bold ">
@@ -23,7 +23,7 @@ function SectionFeatures({ editorLink }: { editorLink: string }) {
               whileHover={{
                 scale: 1.05,
               }}
-              className="featureCard glass fc fcb"
+              className="cursor-pointer featureCard glass fc fcb"
             >
               <div className="w-[19rem] text-[1.8rem] font-bold leading-tight">
                 Built-in ATS Support
@@ -36,7 +36,7 @@ function SectionFeatures({ editorLink }: { editorLink: string }) {
               whileHover={{
                 scale: 1.05,
               }}
-              className="featureCard glass fc fcb"
+              className="cursor-pointer featureCard glass fc fcb"
             >
               <div className="w-[19rem] text-[1.8rem] font-bold leading-tight">
                 Built-in AI Integration
@@ -51,7 +51,7 @@ function SectionFeatures({ editorLink }: { editorLink: string }) {
               whileHover={{
                 scale: 1.05,
               }}
-              className="featureCard glass fc fcb"
+              className="cursor-pointer featureCard glass fc fcb"
             >
               <div className="w-[19rem] text-[1.8rem] font-bold leading-tight">
                 Top-Performing Template
@@ -64,7 +64,7 @@ function SectionFeatures({ editorLink }: { editorLink: string }) {
               whileHover={{
                 scale: 1.05,
               }}
-              className="featureCard glass fc fcb"
+              className="cursor-pointer featureCard glass fc fcb"
             >
               <div className="w-[19rem] text-[1.8rem] font-bold leading-tight">
                 Mentor Review
@@ -77,7 +77,7 @@ function SectionFeatures({ editorLink }: { editorLink: string }) {
               whileHover={{
                 scale: 1.05,
               }}
-              className="featureCard glass fc fcb"
+              className="cursor-pointer featureCard glass fc fcb"
             >
               <div className="w-[19rem] text-[1.8rem] font-bold leading-tight">
                 Easy and Effortless
@@ -92,7 +92,7 @@ function SectionFeatures({ editorLink }: { editorLink: string }) {
               whileHover={{
                 scale: 1.05,
               }}
-              className="featureCard glass fc fcb"
+              className="cursor-pointer featureCard glass fc fcb"
             >
               <div className="w-[19rem] text-[1.8rem] font-bold leading-tight">
                 Affordable Rates for Students
@@ -105,7 +105,7 @@ function SectionFeatures({ editorLink }: { editorLink: string }) {
               whileHover={{
                 scale: 1.05,
               }}
-              className="featureCard glass fc fcb"
+              className="cursor-pointer featureCard glass fc fcb"
             >
               <div className="w-[19rem] text-[1.8rem] font-bold leading-tight">
                 No Hidden Charges

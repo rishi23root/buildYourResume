@@ -8,14 +8,14 @@ function Nav({editorLink}: {editorLink: string}) {
   return (
     <div className="flex items-center justify-between ">
       <Image
-        className="h-16 w-72"
+        className="w-40 h-12 lg:w-72 lg:h-16 "
         alt="main logo"
         src="/logo.png"
         width={275}
         height={65}
         priority
       />
-      <div className="flex items-center justify-center gap-12 text-2xl font-base">
+      <div className="flex items-center justify-center gap-3 lg:gap-12 lg:text-2xl font-base">
         <Link href={"#about"} className="text-violet-50">
           About
         </Link>
@@ -26,14 +26,20 @@ function Nav({editorLink}: {editorLink: string}) {
           Pricing
         </Link>
       </div>
-      <div className="flex items-center justify-center gap-8 ">
-        <Link href={signupLink} className="flex items-center justify-center p-2 px-5 border rounded-xl border-stone-500 ">
-          <div className="text-2xl font-medium text-center text-neutral-200">
+      <div className="flex items-center justify-center gap-2 lg:gap-8 ">
+        <Link
+          href={signupLink}
+          className="flex items-center justify-center p-2 border md:px-5 rounded-xl border-stone-500 "
+        >
+          <div className="font-medium text-center lg:text-2xl text-neutral-200">
             Sign in
           </div>
         </Link>
-        <Link href={signinLink} className="flex items-center justify-center p-2 px-5 rounded-xl border-stone-500 bg-gradient-to-r from-blue-600 to-fuchsia-500 ">
-          <div className="text-2xl font-medium text-center text-neutral-200">
+        <Link
+          href={signinLink}
+          className="flex items-center justify-center p-2 md:px-5 rounded-xl border-stone-500 bg-gradient-to-r from-blue-600 to-fuchsia-500 "
+        >
+          <div className="font-medium text-center lg:text-2xl text-neutral-200">
             Sign up
           </div>
         </Link>

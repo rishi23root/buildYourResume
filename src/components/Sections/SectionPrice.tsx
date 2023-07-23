@@ -3,10 +3,10 @@ import React from "react";
 
 export function SectionPrice({ editorLink }: { editorLink: string }) {
   return (
-    <section id="pricing" className=" h-[65vh] fc fce w-full gap-2">
+    <section id="pricing" className=" min-h-[65vh] fc fce w-full gap-2">
       {/* heading */}
       <div className="w-full gap-4 text-center fcc fc">
-        <div className="text-5xl font-bold text-neutral-200 ">
+        <div className="text-3xl font-bold lg:text-5xl md:text-4xl text-neutral-200">
           Make the prudent and straightforward
           <br />
           decision for your career
@@ -16,7 +16,7 @@ export function SectionPrice({ editorLink }: { editorLink: string }) {
         </div>
       </div>
       {/* tiles */}
-      <div className="w-full h-full gap-8 py-8 fr fcc">
+      <div className="flex-wrap w-full h-full gap-8 py-8 fr fcc">
         <div className="p-6 bg-[#252835] glass fcb fc w-72 rounded-3xl">
           <div className="gap-6 fss fc w-52">
             <div className="flex flex-col items-start justify-center gap-1 ">
@@ -54,7 +54,7 @@ export function SectionPrice({ editorLink }: { editorLink: string }) {
             <div className="text-xl font-medium text-white/90">Get started</div>
           </Link>
         </div>
-        <div className="gap-4 p-6 bg-black/10 glass fcb fc w-80 rounded-3xl">
+        <div className="gap-4 p-6 bg-black/10 glass fcb fc min-w-80 rounded-3xl">
           <div className="gap-8 fss fc ">
             <div className="flex flex-col items-start justify-center gap-1 ">
               <div className="flex flex-col items-start justify-center gap-1">

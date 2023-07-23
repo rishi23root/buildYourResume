@@ -3,11 +3,11 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <section className=" flex items-center justify-between min-h-[55vh] my-10 ">
+    <section className="fcb min-h-[55vh] my-10 flex-wrap justify-center md:gap-20  lg:justify-between xl:justify-between ">
       {/* text  */}
-      <div className="flex flex-col justify-between h-full ">
-        <div className="w-[45vw] flex-col justify-start items-start gap-[2rem] flex ">
-          <div className="text-neutral-200 text-[47px] font-semibold w-[30vw]">
+      <div className="flex flex-col justify-between h-full gap-8  max-w-[35em] ">
+        <div className="  flex-col justify-start items-start gap-[2rem] flex ">
+          <div className="text-neutral-200 text-[47px] font-semibold ">
             Build Your Professional Resume with Simple Login
           </div>
           <div className="w-[526px] flex-col justify-between items-start flex p-4">
@@ -74,7 +74,7 @@ function HeroSection() {
           </div>
         </div>
         {/* button */}
-        <div className="p-4 px-16 border rounded-lg bg-gradient-to-r from-blue-600 to-fuchsia-500 border-stone-500 w-fit">
+        <div className="p-4 px-16 rounded-lg bg-gradient-to-r from-blue-600 to-fuchsia-500 border-stone-500 w-fit">
           <div className="text-center text-neutral-200 text-[38px] font-medium">
             Build Your Resume
           </div>
@@ -82,7 +82,7 @@ function HeroSection() {
       </div>
 
       {/* images  */}
-      <div className="relative w-full h-full scale-[1.20] -translate-x-16">
+      <div className="relative w-[26em] h-[30em] xl:scale-[1.20] lg:scale-[.9] sm:-translate-x-8 lg:-translate-x-2 xl:-translate-x-16  ">
         <Image
           alt="example resume"
           className="absolute rounded shadow right-[11%] top-[50%] -translate-y-1/2 scale-150"
