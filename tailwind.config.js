@@ -5,9 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
+      background: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
+        'glassmorphism':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },

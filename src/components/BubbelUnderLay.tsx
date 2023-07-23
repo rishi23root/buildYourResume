@@ -132,7 +132,7 @@ function Bubble({
         key={index}
         className={clsx(
           "absolute",
-          "bg-opacity-10 rounded-full blur-3xl",
+          "bg-opacity-10 rounded-full blur-2xl",
           color,
           "-translate-x-1/2 -translate-y-1/2",
           "duration-[21s] ease-linear infinite"
