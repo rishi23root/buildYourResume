@@ -1,7 +1,8 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
-function HeroSection() {
+function HeroSection({ editorLink }: { editorLink: string }) {
   return (
     <section className="fcb min-h-[55vh] my-10 flex-wrap justify-center md:gap-20 gap-8  lg:justify-between xl:justify-between ">
       {/* text  */}
@@ -77,9 +78,11 @@ function HeroSection() {
         </div>
         {/* button */}
         <div className="p-4 px-16 rounded-lg bg-gradient-to-r from-blue-600 to-fuchsia-500 border-stone-500 w-fit">
-          <div className="text-center text-neutral-200 md::text-[2.3rem] font-medium">
+          <Link
+            href={editorLink}
+            className="text-center text-neutral-200 md::text-[2.3rem] font-medium" >
             Build Your Resume
-          </div>
+          </Link>
         </div>
       </div>
 

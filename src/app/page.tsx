@@ -15,7 +15,7 @@ export default function Home() {
     <main className="app xl:px-[11%] md:px-[5%] px-[2%] py-[2.5rem] flex flex-col lg:gap-20 gap-8">
       {/* paint each section */}
       <Nav editorLink={editorLink} />
-      <HeroSection />
+      <HeroSection editorLink={editorLink}/>
       <Line />
       <Section2 editorLink={editorLink} />
       <Line />
