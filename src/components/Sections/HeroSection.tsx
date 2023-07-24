@@ -88,17 +88,17 @@ function HeroSection({ editorLink }: { editorLink: string }) {
       </div>
 
       {/* images  */}
-      <div className="relative w-[26em] h-[30em] xl:scale-[1.1] lg:scale-[.9] md:scale-[.9] scale-[.75] translate-x-8 md:-translate-x-4   lg:-translate-x-2 xl:-translate-x-14 ">
+      <div className="relative w-[26em] h-[30em] xl:scale-[1.1] lg:scale-[.9] md:scale-[.9] scale-[.65] translate-x-4 md:-translate-x-4   lg:-translate-x-2 xl:-translate-x-14 ">
         <Image
           alt="example resume"
-          className="absolute rounded shadow right-[11%] top-[50%] -translate-y-1/2 scale-150"
+          className="absolute rounded right-[11%] top-[50%] -translate-y-1/2 scale-150 brightness-[.8]"
           src="/exmaple-resume2.png"
           width={306}
           height={396}
         />
         <Image
           alt="example resume"
-          className=" absolute rounded shadow right-[28%] top-[55%] -translate-y-1/2 scale-120 h-[28rem] w-[22rem]"
+          className=" absolute rounded right-[28%] top-[55%] -translate-y-1/2 scale-120 h-[28rem] w-[22rem] brightness-[.8]"
           src="/exmaple-resume1.png"
           width={306}
           height={430}
