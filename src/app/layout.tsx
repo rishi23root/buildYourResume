@@ -27,6 +27,7 @@ export default function RootLayout({
       />
       <meta property="og:url" content={metadata.description as string}></meta>
       <body
+        suppressHydrationWarning={true}
         className={clsx(
           inter.className,
           // "bg-white",

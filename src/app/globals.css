@@ -32,7 +32,7 @@
         rgba(255, 255, 255, 0.05),
         transparent
       ),
-      url("/noise.svg");
+      url("/noice.svg");
     @apply shadow 
       border border-white/10 border-opacity-90 inset-0  
       p-5 rounded-xl 
