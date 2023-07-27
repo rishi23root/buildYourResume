@@ -26,6 +26,8 @@ export default function RootLayout({
         content={metadata.description as string}
       />
       <meta property="og:url" content={metadata.description as string}></meta>
+      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' *.buildyourresume.online; style-src 'self' *.buildyourresume.online; img-src 'self' *.buildyourresume.online;"/>
+
       <body
         suppressHydrationWarning={true}
         className={clsx(
