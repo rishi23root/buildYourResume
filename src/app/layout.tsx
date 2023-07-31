@@ -64,13 +64,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/* <head>
-        <meta
-          httpEquiv="Content-Security-Policy"
-          content="default-src 'self' data: 'unsafe-inline' *.buildyourresume.online buildyourresume.online"
-        />
-      </head> */}
-
       <body
         suppressHydrationWarning={true}
         className={clsx(

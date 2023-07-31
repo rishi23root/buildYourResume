@@ -1,18 +1,27 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
+    swcMinify: true,
     compiler: {
         styledComponents: true,
     },
-    images: {
-        remotePatterns: [
+    headers() {
+        return [
             {
-                protocol: 'https',
-                hostname: 'via.placeholder.com',
-                port: '',
-                pathname: '/**',
+                source: '/(.*)',
+                headers: [
+                    {
+                        key: 'X-Frame-Options',
+                        value: 'DENY',
+                    },
+                    {
+                        key: 'Content-Security-Policy',
+                        value:
+                            "default-src 'self' data: 'unsafe-inline' *.buildyourresume.online buildyourresume.online",
+                    }
+                ],
             },
-        ],
+        ];
     },
 }
 
