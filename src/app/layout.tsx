@@ -1,35 +1,75 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import "./globals.css";
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
 import { clsx } from "clsx";
-import { BubbleUnderlay } from "@/components/BubbelUnderLay";
-import NoSSR from '@/hooks/NoSSR';
-const inter = Inter({ subsets: ['latin'] })
+import { BubbleUnderlay } from "@/components/custom/BubbelUnderLay";
+import NoSSR from "@/hooks/NoSSR";
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Build.Your.Resume',
-  description: 'Generated Your Resume online free, fast and easy with simple clicks.',
-}
+  title: "Build.Your.Resume",
+  description:
+    "Generated Your Resume online free, fast and easy with simple clicks.",
+  keywords: [
+    "build.your.resume",
+    "build a resume",
+    "making a resume",
+    "make a resume",
+    "create resume",
+    "resume writing",
+    "professional resume",
+    "resume help",
+    "job resume",
+    "resume services",
+    "service resume",
+    "resume top",
+    "resume writing professional",
+    "best resume",
+    "best resume building",
+    "its resume",
+    "basic resume",
+    "build a professional resume",
+    "build my resume",
+    "resume building services",
+    "resume writing help",
+    "resume easy",
+    "resume assistance",
+    "make professional resume",
+    "help building a resume",
+    "build a resume easy",
+  ],
+  authors: [
+    { name: "rishi23root" },
+    { name: "Rishabh Jain", url: "https://github.com/rishi23root" },
+  ],
+  openGraph: {
+    type: "website",
+    url: "https://buildyourresume.online",
+    title: "Build.Your.Resume",
+    description:
+      "Generated Your Resume online free, fast and easy with simple clicks.",
+    images: [
+      {
+        url: "https://buildyourresume.online/logo.png",
+        alt: "Build.Your.Resume",
+      },
+    ],
+  },
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <meta property="description" content={metadata.description as string} />
-      <meta property="og:image" content="Link preview image URL"></meta>
-      <meta property="og:title" content="Build.your.resume"></meta>
-      <meta
-        property="og:description"
-        content={metadata.description as string}
-      />
-      <meta property="og:url" content={metadata.description as string}></meta>
-      <meta
-        http-equiv="Content-Security-Policy"
-        content="default-src 'self' data: 'unsafe-inline' *.buildyourresume.online buildyourresume.online"
-      />
+      {/* <head>
+        <meta
+          httpEquiv="Content-Security-Policy"
+          content="default-src 'self' data: 'unsafe-inline' *.buildyourresume.online buildyourresume.online"
+        />
+      </head> */}
 
       <body
         suppressHydrationWarning={true}
